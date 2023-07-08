@@ -1,0 +1,54 @@
+{
+    "name": "action1",
+    "maps": [
+        {
+            "name": "New action map",
+            "id": "f63cc6d3-3154-4982-be5a-7720ae1f8b02",
+            "actions": [
+                {
+                    "name": "New action",
+                    "type": "Button",
+                    "id": "d06c7530-c0a5-421d-89be-b4273216dd8e",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "New action1",
+                    "type": "Value",
+                    "id": "9e479d52-f483-4093-8f07-f378f5951dce",
+                    "expectedControlType": "",
+                    "processors": "Scale",
+                    "interactions": "",
+                    "initialStateCheck": true
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "9a00fad2-a9f9-4b1e-95da-81064399dfa0",
+                    "path": "",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "New action",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "c140e342-a977-4bd6-8478-6eea378f2ada",
+                    "path": "",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "New action1",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
